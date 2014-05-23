@@ -1,0 +1,30 @@
+.header-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.slide {
+	background-color: #dddddd;
+}
+
+.slide-content {
+	padding: 20px;
+}
+
+.slide-wrap {
+	display: flex;
+}
+
+.slide.thirth,
+.slide.fourth {
+	background-color: #cccccc;
+	flex: 2;
+	
+}
+
+.slide.first,
+.slide.second,
+.slide.fifth,
+.slide.sixth {
+	flex: 1;
+}
